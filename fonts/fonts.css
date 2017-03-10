@@ -1,0 +1,63 @@
+
+
+
+@font-face {
+    font-family: 'corporate_a_condensedregular';
+    src: url('../fonts/corporateacon-reg-webfont.eot');
+    src: url('../fonts/corporateacon-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corporateacon-reg-webfont.woff2') format('woff2'),
+         url('../fonts/corporateacon-reg-webfont.woff') format('woff'),
+         url('../fonts/corporateacon-reg-webfont.ttf') format('truetype'),
+         url('../fonts/corporateacon-reg-webfont.svg#corporate_a_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'corporate_sdemi';
+    src: url('../fonts/corporates-demi-webfont.eot');
+    src: url('../fonts/corporates-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corporates-demi-webfont.woff2') format('woff2'),
+         url('../fonts/corporates-demi-webfont.woff') format('woff'),
+         url('../fonts/corporates-demi-webfont.ttf') format('truetype'),
+         url('../fonts/corporates-demi-webfont.svg#corporate_sdemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'corporate_slight';
+    src: url('../fonts/corporates-light-webfont.eot');
+    src: url('../fonts/corporates-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corporates-light-webfont.woff2') format('woff2'),
+         url('../fonts/corporates-light-webfont.woff') format('woff'),
+         url('../fonts/corporates-light-webfont.ttf') format('truetype'),
+         url('../fonts/corporates-light-webfont.svg#corporate_slight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'corporate_sregular';
+    src: url('../fonts/corporates-regular-webfont.eot');
+    src: url('../fonts/corporates-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/corporates-regular-webfont.woff2') format('woff2'),
+         url('../fonts/corporates-regular-webfont.woff') format('woff'),
+         url('../fonts/corporates-regular-webfont.ttf') format('truetype'),
+         url('../fonts/corporates-regular-webfont.svg#corporate_sregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

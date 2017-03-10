@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale = 1.0, shrink-to-fit=no">
+   
+  <!--STYLES-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+
+ <!--SCRIPTS-->
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script src="js/form-validation.js"></script>
+  <script src="js/jquery.flip.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<!--HEADER-->
+<header>
+    
+      <div class="wrapper">
+       <img src="img/logo.png" alt="SH Logo" id="logo">
+      </div>
+    
+</header> 
+
+<!--SECTION HERO-->
+<section class="hero-image" style="background-image: url(img/cover_page.jpg);">
+      <span class="text">
+        <h1>Mercedes PrimeCare</h1>
+        <p>Na Mercedes não cuidamos apenas do seu automóvel. Cuidamos de si.
+        <br>
+        Conheça o novo serviço Mercedes PrimeCare, que lhe dará acesso a um conjunto de vantagens Mercedes-Benz pensados para si.
+        <br>
+        Um serviço de manutenção pré-pago e sem surpresas.</p>
+      </span>
+</section>
+
+
+<!--FORM-->
+<section class="formulario">
+<div class="gradient"></div>
+<div class="wrapper">
+
+        <div class="pleaseForm">
+            <h1>Para mais informações, preencha por favor os seus dados no seguinte formulário:</h1>  
+        </div>
+        
+        <div class="formUp">
+          <span class="image">
+            <img src="img/button 1-1.svg" id="image1">
+            <img src="img/button2-2.svg" id="image2">
+          </span>
+          <span class="headerForm">
+            <h1>Dados Pessoais</h1>
+          </span>
+          <span class="headerForm2">
+            <h1>Dados Automóveis</h1>
+          </span>
+        </div>
+
+    <!--PART ONE-->
+
+    <div class="partOne">
+        <form class="formOne">
+            <ul>
+                <li>
+                    <h2>Primeiro Nome</h2>
+                    <input type="text" name="firstname"  class="size1">
+                </li>
+
+                <li>
+                    <h2>Último Nome</h2>
+                    <input type="text" name="lastname" class="size1">
+                </li>
+                <li>
+                    <h2>E-mail</h2>
+                    <input type="text" name="email" class="size1" id="yourEmail">
+                </li>
+                <li>
+                    <h2>Telefone (opcional)</h2>
+                    <input type="text" name="phone" class="size1">
+                </li>
+                <li class="button">
+                    <button id="next">Próximo Passo
+                    </button>
+                </li>
+            </ul>
+        </form>
+    </div>
+            
+        
+    <!--PART TWO-->
+
+    <div class="part2" style="display: none;">
+        <form class="form2">
+                <ul>
+                    <li>
+                        <h2>Modelo</h2>
+                        <select type='text' name="modelo" placeholder="Escolha um dos seguintes Modelos..." class="size1">
+                        <option value="Class A">Class A</option>
+                        <option value="Class B">Class B</option>
+                        <option value="Class C">Class C</option>
+                        <option value="Class CL">Class CL</option>
+                        <option value="Class CLA">Class CLA</option>
+                        <option value="Class CLK">Class CLK</option>
+                        <option value="Class CLS">Class CLS</option>
+                        <option value="Class E">Class E</option>
+                        <option value="Class G">Class G</option>
+                        <option value="Class GL">Class GL</option>
+                        <option value="Class GLA">Class GLA</option>
+                        <option value="Class GLC">Class GLC</option>
+                        <option value="Class GLE">Class GLE</option>
+                        <option value="Class GLK">Class GLK</option>
+                        <option value="Class GLS">Class GLS</option>
+                        <option value="Class M">Class M</option>
+                        <option value="Class R">Class R</option>
+                        <option value="Class S">Class S</option>
+                        <option value="Class SL">Class SL</option>
+                        <option value="Class SLK">Class SLK</option>
+                        <option value="Class SLR">Class SLR</option>
+                        <option value="Class SLS">Class SLS</option>
+                        <option value="Class V">Class V</option>
+                        </select>
+                    </li>
+    
+                    <li> 
+                        <h2>Combustível</h2>
+                       <select type='text' name="combustível" class="size1">
+
+                       <option value="Gasolina">Gasolina</option>
+                        <option value="Gasóleo">Gasóleo</option>
+                        <option value="Outro">Outro</option>
+                        </select>
+                    </li>
+
+                    
+                    <li>
+                        <h2>Quilómetros</h2>
+                        <select type="text" name="kilometros" placeholder="Quantos km tem o seu Mercedes" class="size1">
+                        <option value="0-15.000"> 0-15.000 km</option>
+                        <option value="15.000-30.000 km">15.000-30.000 km</option>
+                        <option value="30.000-45.000 km">30.000-45.000 km</option>
+                        <option value="45.000-60.000 km">45.000-60.000 km</option>
+                        <option value="60.000-75.000 km">60.000-75.000 km</option>
+                        <option value="75.000-90.000 km">75.000-90.000 km</option>
+                        <option value="90.000-105.000 km">90.000-105.000 km</option>
+                        <option value="105.000-120.000 km">105.000-120.000 km</option>
+                        <option value="120.000-135.000 km">120.000-135.000 km</option>
+                        <option value="135.000-150.000 km">135.000-150.000 km</option>
+                        <option value="150.000-175.000 km">150.000-175.000 km</option>
+                        <option value="175.000-190.000 km">175.000-190.000 km</option>
+                        <option value="> 190.000 km"> > 190.000 km</option>
+                        </select>
+                    </li>
+                    
+                
+                    <li>
+                        <h2>Ano</h2>
+                        <select type='text' name="ano" placeholder="Escolha o ano do seu Mercedes" class="size1">  
+                        <option value="< 1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <button id="send">Enviar</button>
+                    </li>
+                </ul>
+        </form>
+    </div>
+</div>  
+<div class="gradient2"></div>
+</section>
+
+<!--SECTION CAR-->
+
+<section class="car1">
+  <span class="vertical">
+        <img src="img/Mercedes-Benz.jpg">
+        <h1>Mercedes PrimeCare</h1>
+  </span>
+</section>
+
+
+<!-- SECTION GRID-->
+
+<section class="grid">
+<div class="wrapper">
+
+  <div class="card"> 
+  <div class="front">
+  <figure class="img1">
+  </figure>
+    <h1>Service 24h e Mobilidade</h1>
+  </div> 
+  <div class="back">
+    <h1 class="different">SERVICE 24h E MOBILIDADE<br>
+    <br>
+      Reparação na estrada sempre que possível.
+      Reboque para a oficina mais próxima.
+      Transporte de cliente até ao destino desejado.
+      Entrega da viatura na oficina selecionada.
+      Serviço gratuito para quem efetua as manutenções na marca.
+    </h1>
+  </div> 
+  </div>
+
+  <div class="card"> 
+  <div class="front">
+  <figure class="img2">
+  </figure>
+   <h1>We Go</h1>
+  </div> 
+  <div class="back">
+   <h1>WE GO<br>
+    <br>
+    Check up gratuito.
+    Um técnico especializado desloca-se até si.
+    Diagnóstico do seu automóvel.
+   </h1>
+  </div> 
+  </div>
+
+  <div class="card"> 
+  <div class="front">
+  <figure class="img3">
+  </figure>
+   <h1>Pick up and Delivery</h1>
+  </div> 
+  <div class="back">
+   <h1>PICK UP AND DELIVERY<br>
+   <br>
+    Comodidade para o cliente.
+    Serviço pago.
+    Serviço chave na mão.
+   </h1>
+  </div> 
+  </div>
+
+  <div class="card"> 
+  <div class="front">
+  <figure class="wider" class="img4">
+  </figure>
+   <h1>Pre Service</h1>
+  </div> 
+  <div class="back">
+   <h1>PRE SERVICE<br>
+   <br>
+    Marcar a qualquer momento.
+    Dia e hora da conveniência do cliente.
+   </h1>
+  </div> 
+  </div>
+
+
+<div class="card"> 
+<div class="front">
+<figure class="wider_" class="img5">
+</figure>
+   <h1>Mercedes Me Adapter</h1>
+</div> 
+<div class="back">
+   <h1>MERCEDES ME ADAPTER<br>
+   <br>
+    App para smartphone.
+    Toda a informação do seu automóvel reunida para um fácil acesso.
+   </h1>
+</div> 
+</div>
+
+
+<div class="card"> 
+<div class="front">
+<figure class="img6">
+</figure>
+   <h1>Manutenção Pré-Paga</h1>
+</div> 
+<div class="back">
+   <h1>MANUTENÇÃO PRÉ-PAGA <br>
+   <br>
+    Serviço pré-pago
+    Valor fixo. Sem surpresas
+    Pague agora e usufrua de todas as vantagens.
+   </h1>
+</div> 
+</div>
+</div>
+
+</section>
+
+
+<!--FOOTER-->
+
+<section class="lastElement">
+    <div class="footer">
+
+        <aside>
+            <img src="img/mercedes-logo.png">
+            <p>@ Copyright 2017, Mercedes-Benz Portugal S.A.</p>
+            <a href="http://www.mercedes-benz.pt/">www.mercedes-benz.pt</a>     
+        </aside>
+
+
+        <ul class="linear">
+            <li>
+                <a href="...">Termos e Condições</a>
+            </li>
+            <li>
+                <a href="..."> Proteção de Dados</a>
+            </li>
+            <li>
+                <a href="...">Avisos Legais</a>
+            </li>
+            <li>
+                <a href="...">Contatos</a>
+            </li>
+        </ul>
+
+        <ul class="social">
+            <li>
+            <a href="https://www.facebook.com/mercedesbenzpt/?fref=ts"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+            <a href="https://www.instagram.com/mercedesbenz/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+            <a href="https://twitter.com/mercedesbenz"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+            <a href="https://www.youtube.com/user/Mercedesbenzpt"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+
+    </div>   
+</section>
+
+</body>
+</html>
+
